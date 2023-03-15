@@ -81,13 +81,14 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   font-family: 'Amatic SC', cursive;
-  color: #F6F1D1;
+  color: #f8f7ed;
 }
 
 .form {
   display: flex;
   justify-content: center;
 }
+
 .form-input, .form-button {
   border-radius: 0;
   padding: 0.75rem;
@@ -95,7 +96,7 @@ body {
 }
 .form-input {
   outline: none;
-  background-color: #F6F1D1;
+  background-color: #f8f7ed;
   border-color: #e5527e;;
 }
 .form-button {
@@ -106,7 +107,7 @@ body {
   margin-left: 0.25rem;
 }
 .form-button:hover {
-  color: #F6F1D1;
+  color: #f8f7ed;
   background: rgba(246, 241, 209, 0.1);
 }
 
@@ -117,7 +118,7 @@ body {
 }
 
 .task {
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
   color: #7b2c43;
   display: flex;
@@ -127,7 +128,7 @@ body {
 }
 
 .check-button, .delete-button {
-  background-color: #F6F1D1;
+  background-color:#f8f7ed;
   border: none;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   outline: none;
